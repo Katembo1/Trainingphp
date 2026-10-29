@@ -1,0 +1,60 @@
+#myimage{
+    width:200px;
+   border-radius: 50%;
+}
+input::placeholder{
+   
+    color:red;
+    font-size: 1.3em;
+}
+.w{
+    margin:8px;
+    
+}
+#myimage:hover{
+ 
+ scale: 1.2;
+}
+#profile{
+    display: flex;
+    justify-content: center;
+    background-color: red;
+    flex-grow:1;
+    
+   
+}
+#sec1{
+    display: flex;
+    flex-wrap: wrap;
+}
+#des{
+    flex-grow: 1;
+    min-width: 400px;
+    background-color: rgb(138, 138, 231);
+}
+
+#p{
+height:200px;
+background-color: green;
+flex-grow: 1;
+}
+#sec2{
+    display: flex;
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+#time{
+position: absolute;
+right:10px;
+top:10px;
+}
+#display{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;}
+
+
+    .tform{
+       color:red;
+    }

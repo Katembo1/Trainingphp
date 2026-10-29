@@ -1,0 +1,25 @@
+*{
+    margin:0;
+}
+
+li>a{
+    text-decoration:none;
+    color:white;
+}
+ul{
+    list-style-type:none;
+
+}
+nav{
+    
+    font-size: 1.2em;
+    background-color: rgb(48, 48, 156);
+    
+    
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+   height: 1.5em;
+   align-items: center;
+}
